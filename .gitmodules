@@ -1,0 +1,3 @@
+[submodule "Site/order-management-ui"]
+	path = Site/order-management-ui
+	url = https://github.com/LucasTimoteo/order-management-ui.git
