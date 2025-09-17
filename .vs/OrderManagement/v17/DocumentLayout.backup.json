@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85FC2A16-5985-417F-B454-DA3E126872E8}|OrderManagement.API\\OrderManagement.API.csproj|c:\\users\\administrador\\source\\repos\\ordermanagement\\ordermanagement.api\\middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85FC2A16-5985-417F-B454-DA3E126872E8}|OrderManagement.API\\OrderManagement.API.csproj|solutionrelative:ordermanagement.api\\middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5DE2A1-DFD6-4149-A291-E5B6B59308DC}|OrderManagement.Application\\OrderManagement.Application.csproj|c:\\users\\administrador\\source\\repos\\ordermanagement\\ordermanagement.application\\validators\\productcreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5DE2A1-DFD6-4149-A291-E5B6B59308DC}|OrderManagement.Application\\OrderManagement.Application.csproj|solutionrelative:ordermanagement.application\\validators\\productcreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5DE2A1-DFD6-4149-A291-E5B6B59308DC}|OrderManagement.Application\\OrderManagement.Application.csproj|c:\\users\\administrador\\source\\repos\\ordermanagement\\ordermanagement.application\\validators\\ordercreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5DE2A1-DFD6-4149-A291-E5B6B59308DC}|OrderManagement.Application\\OrderManagement.Application.csproj|solutionrelative:ordermanagement.application\\validators\\ordercreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85FC2A16-5985-417F-B454-DA3E126872E8}|OrderManagement.API\\OrderManagement.API.csproj|c:\\users\\administrador\\source\\repos\\ordermanagement\\ordermanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85FC2A16-5985-417F-B454-DA3E126872E8}|OrderManagement.API\\OrderManagement.API.csproj|solutionrelative:ordermanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5DE2A1-DFD6-4149-A291-E5B6B59308DC}|OrderManagement.Application\\OrderManagement.Application.csproj|c:\\users\\administrador\\source\\repos\\ordermanagement\\ordermanagement.application\\profiles\\appprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5DE2A1-DFD6-4149-A291-E5B6B59308DC}|OrderManagement.Application\\OrderManagement.Application.csproj|solutionrelative:ordermanagement.application\\profiles\\appprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5DE2A1-DFD6-4149-A291-E5B6B59308DC}|OrderManagement.Application\\OrderManagement.Application.csproj|c:\\users\\administrador\\source\\repos\\ordermanagement\\ordermanagement.application\\dtos\\promotionviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5DE2A1-DFD6-4149-A291-E5B6B59308DC}|OrderManagement.Application\\OrderManagement.Application.csproj|solutionrelative:ordermanagement.application\\dtos\\promotionviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5DE2A1-DFD6-4149-A291-E5B6B59308DC}|OrderManagement.Application\\OrderManagement.Application.csproj|c:\\users\\administrador\\source\\repos\\ordermanagement\\ordermanagement.application\\dtos\\promotioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5DE2A1-DFD6-4149-A291-E5B6B59308DC}|OrderManagement.Application\\OrderManagement.Application.csproj|solutionrelative:ordermanagement.application\\dtos\\promotioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5DE2A1-DFD6-4149-A291-E5B6B59308DC}|OrderManagement.Application\\OrderManagement.Application.csproj|c:\\users\\administrador\\source\\repos\\ordermanagement\\ordermanagement.application\\dtos\\stockadjustdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5DE2A1-DFD6-4149-A291-E5B6B59308DC}|OrderManagement.Application\\OrderManagement.Application.csproj|solutionrelative:ordermanagement.application\\dtos\\stockadjustdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.API\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "OrderManagement.API\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.API\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "OrderManagement.API\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T19:11:07.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductCreateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.Application\\Validators\\ProductCreateValidator.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Application\\Validators\\ProductCreateValidator.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.Application\\Validators\\ProductCreateValidator.cs",
+              "RelativeToolTip": "OrderManagement.Application\\Validators\\ProductCreateValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T19:02:22.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderCreateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.Application\\Validators\\OrderCreateValidator.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Application\\Validators\\OrderCreateValidator.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.Application\\Validators\\OrderCreateValidator.cs",
+              "RelativeToolTip": "OrderManagement.Application\\Validators\\OrderCreateValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T19:01:07.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "OrderManagement.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.API\\Program.cs",
+              "RelativeToolTip": "OrderManagement.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T18:54:13.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.Application\\Profiles\\AppProfile.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Application\\Profiles\\AppProfile.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.Application\\Profiles\\AppProfile.cs",
+              "RelativeToolTip": "OrderManagement.Application\\Profiles\\AppProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T18:51:35.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PromotionViewDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.Application\\DTOs\\PromotionViewDto.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Application\\DTOs\\PromotionViewDto.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.Application\\DTOs\\PromotionViewDto.cs",
+              "RelativeToolTip": "OrderManagement.Application\\DTOs\\PromotionViewDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T18:40:56.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PromotionCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.Application\\DTOs\\PromotionCreateDto.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Application\\DTOs\\PromotionCreateDto.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.Application\\DTOs\\PromotionCreateDto.cs",
+              "RelativeToolTip": "OrderManagement.Application\\DTOs\\PromotionCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T18:40:36.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StockAdjustDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.Application\\DTOs\\StockAdjustDto.cs",
+              "RelativeDocumentMoniker": "OrderManagement.Application\\DTOs\\StockAdjustDto.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\OrderManagement\\OrderManagement.Application\\DTOs\\StockAdjustDto.cs",
+              "RelativeToolTip": "OrderManagement.Application\\DTOs\\StockAdjustDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T18:40:15.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

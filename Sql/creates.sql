@@ -1,0 +1,81 @@
+CREATE DATABASE OrderManagement
+GO;
+
+USE OrderManagement;
+
+CREATE TABLE Clients (
+    Id INT IDENTITY PRIMARY KEY,
+    Name NVARCHAR(200) NOT NULL,
+    Email NVARCHAR(200) NULL
+);
+
+CREATE TABLE Orders (
+    Id INT IDENTITY PRIMARY KEY,
+    Number NVARCHAR(50) NOT NULL UNIQUE,
+    Status INT NOT NULL,
+    GrossTotal DECIMAL(18,2) NOT NULL,
+    Discount DECIMAL(18,2) NOT NULL,
+    NetTotal DECIMAL(18,2) NOT NULL,
+    CreatedAt DATETIME2 NOT NULL DEFAULT SYSUTCDATETIME(),
+    ClientId INT NOT NULL,
+    CONSTRAINT FK_Order_Clients FOREIGN KEY (ClientId) REFERENCES Clients(Id)
+);
+
+CREATE TABLE [Products] (
+    Id INT IDENTITY PRIMARY KEY,
+    Sku NVARCHAR(50) NOT NULL UNIQUE,
+    Name NVARCHAR(200) NOT NULL,
+    Price DECIMAL(18,2) NOT NULL,
+    IsActive BIT NOT NULL DEFAULT 1,
+    CreatedAt DATETIME2 NOT NULL DEFAULT SYSUTCDATETIME()
+);
+
+CREATE TABLE Promotions (
+    Id INT IDENTITY PRIMARY KEY,
+    Name NVARCHAR(200) NOT NULL,
+    PromotionType INT NOT NULL,
+    [Percent] DECIMAL(5,2) NULL,
+    FixedAmount DECIMAL(18,2) NULL,
+    BuyX INT NULL,
+    PayY INT NULL,
+    IsActive BIT NOT NULL DEFAULT 1,
+    CreatedAt DATETIME2 NOT NULL DEFAULT SYSUTCDATETIME()
+);
+
+CREATE TABLE ProductPromotions (
+    ProductId INT NOT NULL,
+    PromotionId INT NOT NULL,
+    PRIMARY KEY (ProductId, PromotionId),
+    FOREIGN KEY (ProductId) REFERENCES Products(Id),
+    FOREIGN KEY (PromotionId) REFERENCES Promotions(Id)
+);
+
+CREATE TABLE Stocks (
+    Id INT IDENTITY PRIMARY KEY,
+    Name NVARCHAR(200) NOT NULL,
+    Localization NVARCHAR(200) NULL,
+    CreatedAt DATETIME2 NOT NULL DEFAULT SYSUTCDATETIME()
+);
+
+CREATE TABLE StockProducts (
+    StockId INT NOT NULL,
+    ProductId INT NOT NULL,
+    Qty INT NOT NULL,
+	Reserved INT NULL,
+    PRIMARY KEY (StockId, ProductId),
+    FOREIGN KEY (StockId) REFERENCES Stocks(Id),
+    FOREIGN KEY (ProductId) REFERENCES Products(Id)
+);
+
+CREATE TABLE OrderItems (
+    Id INT IDENTITY PRIMARY KEY,
+    Qty INT NOT NULL,
+    UnitPrice DECIMAL(18,2) NOT NULL,
+    Discount DECIMAL(18,2) NOT NULL,
+    Total DECIMAL(18,2) NOT NULL,
+    CreatedAt DATETIME2 NOT NULL DEFAULT SYSUTCDATETIME(),
+    OrderId INT NOT NULL,
+    ProductId INT NOT NULL,
+    FOREIGN KEY (OrderId) REFERENCES [Orders](Id) ON DELETE CASCADE,
+    FOREIGN KEY (ProductId) REFERENCES Products(Id)
+);
